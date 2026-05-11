@@ -1,0 +1,11 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:core="clr-namespace:SpaceInvaders.Core;assembly=SpaceInvaders.Core"
+        x:Class="SpaceInvaders.Desktop.MainWindow"
+        Title="Space Invaders"
+        Width="800" Height="600"
+        CanResize="False"
+        Background="Black"
+        Focusable="True">
+    <core:GameCanvas x:Name="GameCanvas" />
+</Window>
